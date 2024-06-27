@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes glowing {
+    0% {
+      background-color: #059da8;
+      box-shadow: 0 0 5px #059da8;
+    }
+    50% {
+      background-color: #19dae8;
+      box-shadow: 0 0 20px #19dae8;
+    }
+    100% {
+      background-color: #05a8a8;
+      box-shadow: 0 0 5px #05a8a8;
+    }
+  }
+  .button {
+    animation: glowing 1300ms infinite;
+  }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo2.png" width="200px">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h1>I'm <span>Aadarsh Chetry</span></h1>
+            <p>This is my official portfolio website to show all
+                <br>that I've learned and accomplished as a science
+                <br>and engineering student.
+            </p>
+            <a href="#" class="button">DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="bg4.png" class="shape">
+            <img src="me1.png" class="me">
+        </div>
+    </div>
+</body>
+</html>
